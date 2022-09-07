@@ -1,4 +1,4 @@
-/* Generated on: Wed Sep 07 2022 13:35:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Sep 07 2022 13:52:20 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2216,12 +2216,25 @@
    
    .testimonial-slider-arrow {
      display: none;
+     overflow: visible;
+     color: #fff;
    }
    
    .testimonial-slider-nav {
      position: static;
      bottom: -60px;
-     margin-top: 24px;
+     margin-top: auto;
+     border-style: none;
+     border-width: 1px;
+     border-color: #fff;
+     border-radius: 0px;
+     background-color: transparent;
+     opacity: 1;
+     outline-color: #fff;
+     outline-offset: 0px;
+     outline-style: none;
+     outline-width: 3px;
+     color: #fff;
      font-size: 10px;
    }
    
@@ -2272,6 +2285,10 @@
      -ms-flex-align: center;
      align-items: center;
      text-align: left;
+   }
+   
+   .icon {
+     color: #fff;
    }
    
    @media screen and (max-width: 991px) {
@@ -2391,6 +2408,7 @@
      }
    
      .container-2 {
+       overflow: visible;
        max-width: 728px;
      }
    
@@ -2497,7 +2515,17 @@
        display: none;
      }
    
+     .testimonial-slider-large {
+       overflow: visible;
+     }
+   
+     .testimonial-slider-two {
+       overflow: visible;
+     }
+   
      .testimonial-slide {
+       overflow: visible;
+       width: auto;
        padding-left: 32px;
      }
    
@@ -2507,6 +2535,18 @@
    
      .italic-text {
        display: none;
+     }
+   
+     .slide {
+       position: static;
+       overflow: visible;
+       -o-object-fit: fill;
+       object-fit: fill;
+     }
+   
+     .mask-2 {
+       -o-object-fit: scale-down;
+       object-fit: scale-down;
      }
    }
    
